@@ -1,11 +1,11 @@
 [package]
 name = "apex"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["braxtons12 <braxtonsalyer@gmail.com>"]
 edition = "2018"
 license = "MIT"
 keywords = ["signals", "slots"]
-categories = ["signals", "slots", "communication", "multithreading", "channels"]
+categories = ["concurrency", "data-structures", "game-development", "gui"]
 description = "A configurable, multi-threaded signals and slots implementation for Rust"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
