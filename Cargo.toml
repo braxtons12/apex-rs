@@ -4,8 +4,8 @@ version = "0.1.0"
 authors = ["braxtons12 <braxtonsalyer@gmail.com>"]
 edition = "2018"
 license = "MIT"
-keywords = ["signals", "slots", "signals and slots"]
-categories = ["signals", "slots", "signals and slots", "communication", "multithreading", "channels"]
+keywords = ["signals", "slots"]
+categories = ["signals", "slots", "communication", "multithreading", "channels"]
 description = "A configurable, multi-threaded signals and slots implementation for Rust"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
