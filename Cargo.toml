@@ -1,7 +1,8 @@
 [package]
 name = "apex"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["braxtons12 <braxtonsalyer@gmail.com>"]
+repository = "https://github.com/braxtons12/apex-rs"
 edition = "2018"
 license = "MIT"
 keywords = ["signals", "slots"]
