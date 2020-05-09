@@ -1,0 +1,15 @@
+use std::sync::mpsc::{Sender, Receiver};
+
+struct Slot<'call, T> {
+    receiver: Receiver<T>,
+    sender: Sender<T>,
+    callback: Box<dyn FnMut() + 'call>
+}
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn it_works() {
+        assert_eq!(2 + 2, 4);
+    }
+}
